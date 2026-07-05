@@ -4,7 +4,7 @@ import pandas as pd
 st.title("📊 Customer Analytics Dashboard")
 
 # Load your Excel file
-data = pd.read_excel("customer.xlsx")
+data = pd.read_excel("customer.csv")
 
 st.write("### Raw Data Preview")
 st.dataframe(data)
